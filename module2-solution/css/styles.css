@@ -1,0 +1,81 @@
+@media (min-width: 992px) {
+    section{
+        width:32.8%;
+        display: inline-block;
+    }
+    
+}    
+@media (max-width: 991px) and (min-width: 768px) {
+    #Real{
+        float: left;
+        width:49%;
+        box-sizing: border-box;
+    }
+    #Barca{
+        float: right;
+        width:49%;
+        box-sizing: border-box;
+    }
+    #Atletico{
+        clear:both;
+        float:left;
+        width:100%;
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 767px) {
+    section{
+        width:100%;
+        box-sizing: border-box;      
+    }
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+section {
+    margin-bottom: 10px;
+    border: 1px black solid;
+    height: auto;
+}
+
+.Nombre{
+    font-style: italic;
+    border: 1px black solid;
+    width: 30%;
+    position: relative;
+    top: 5%;  
+    left: 66%;
+    margin-bottom: 3px;
+    text-align: right;
+    padding-right: 3%;
+}
+.Descripcion{
+    font-family: 'Times New Roman', Times, serif;
+    margin:2%;
+}
+
+#Real{
+    background-color: rgb(245, 238, 15);
+}
+#Real > .Nombre {
+    background-color: rgb(124, 123, 123);
+    color: white;
+}
+#Barca{
+    background-color: rgb(245, 238, 15);
+}
+#Barca > .Nombre {
+    background-color: rgb(37, 88, 229);
+    color: white;
+}
+#Atletico{
+    background-color: rgb(245, 238, 15);
+}
+#Atletico > .Nombre {
+    background-color: rgb(245, 120, 120);
+    color: white;
+}
+
